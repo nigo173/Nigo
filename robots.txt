@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Sitemap: http://nigo-chen.herokuapp.com/sitemap_heroku.xml
+Sitemap: https://nigo173.github.io/sitemap_github.xml
+Sitemap: https://nigo-chen.firebaseapp.com/sitemap_firebase.xml

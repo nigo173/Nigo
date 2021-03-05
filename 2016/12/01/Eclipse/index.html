@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.9.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bing map -->
+    <meta name="msvalidate.01" content="2118D80A5A728070241BB5E74721DC18">
+    <!--Google site-->
+    <meta name="google-site-verification" content="7TLVESm1dyTSPilr1lOnoZGxLG-gDads2Pm5lRrrN34">
+    <meta name="google-site-verification" content="cka2IDDNypvS5R5Zv0cIJ3qKrkHizcw_2TWiYr9WFOQ">
+    <meta name="google-site-verification" content="Z5tS3asqccuteeKT3UHwVlvTgmLXPSYKt35jDijZ0Oo">
+    <meta name="google-site-verification" content="TBeR8Q8dcdCohkm4t25mZmptfIQ-jtgvoTnxWv8ykVQ">
+
+    <!--Description-->
+    
+
+    
+        <meta name="keywords" content="Eclipse JFrame fix error, Setting build path">
+        
+
+    
+        <meta name="description" content="Nigo 愛分享 | Nigo | Nigo Chen">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Nigo Chen">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Eclipse">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Nigo 愛分享 | Nigo | Nigo Chen">
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Nigo">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="/img/about_nigo.jpg">
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+
+    
+        <meta name="twitter:site" content="@nigo36445370">
+    
+
+    
+        <meta name="twitter:image" content="/img/about_nigo.jpg">
+    
+
+    <!-- Title -->
+    
+    <title>Eclipse - Nigo</title>
+    <!-- favicon -->
+    
+    <link rel="icon" href="/favicon/favicon.ico">
+    
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- Google Analytics-->
+    <script>
+    var google_analytics = '';
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    if (window.top.location.href == "https://nigo-chen.herokuapp.com/")     google_analytics = 'UA-140597486-1';
+    if (window.top.location.href == "https://nigo173.github.io/")           google_analytics = 'UA-140643027-1';
+    if (window.top.location.href == "https://nigo-chen.firebaseapp.com/")   google_analytics = 'UA-141306491-1';
+    if (window.top.location.href == "https://nigo-chen.web.app/")           google_analytics = 'UA-140922427-1';
+
+    ga('create', google_analytics, 'auto');
+    ga('send', 'pageview');
+</script>
+    <!-- Google Adsense-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-9182630432381403",
+              enable_page_level_ads: true
+         });
+    </script>
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nigo</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                Tags
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                Categories
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpeg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Eclipse</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2016-12-01
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- 文章內 分類 / 標籤 -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/Eclipse/">#Eclipse</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                        
+
+<a href="/categories/Java/">Java</a>
+
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 id="Eclipse-導入錯誤提示Setting-build-path…"><a href="#Eclipse-導入錯誤提示Setting-build-path…" class="headerlink" title="Eclipse 導入錯誤提示Setting build path…."></a>Eclipse 導入錯誤提示Setting build path….</h1><p class="text-center"><br><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAACVCAIAAAAxJxMPAAAAA3NCSVQICAjb4U/gAAAAX3pUWHRSYXcgcHJvZmlsZSB0eXBlIEFQUDEAAAiZ40pPzUstykxWKCjKT8vMSeVSAANjEy4TSxNLo0QDAwMLAwgwNDAwNgSSRkC2OVQo0QAFmJibpQGhuVmymSmIzwUAT7oVaBst2IwAAA/YSURBVHic7d1fcNzGfQfwH3gQ9cfWv5iRrFiVXSk2JTxc7dRi5SrOTJq8eDoWWQcZnyd27Njpc9IZM1amHWSKpqak6XPbmaix8tD6PEYkyk9+9NiVrfEfuTnPQMd60lge/4klWSSPf+6A291fH7CHw+FwpCiJdxL1/QxIAjhgsZzBD7sLHHYNIQQBAFFfrzMAcL1AMABoCAYADcEAoCEYADQEA4CGYADQEAwAGoIBQDNTy2LqFVn/iCUrIVgxsaGUZCWVkkpJw9yweuP96wYe7EleAZZVKhhY1v/Qv/Hrfav2VSfHg7lLk5PTO3Z/J7eqP/pYhLOT504jGGBFSlWTDCIiI6fEO7d89Zmv3DVqqqkPf/dGMHuRWSoZGGSI2oVe5BNg2XVsM4jaq0Q5KesiDCY/+UDVa6o+L+tzilU38wfQNW3BwMkFKUWdlVBSyPqcCGdFWGG1nMHgu3kz7/rLeASATtLBoFjqGSVY1aSoKxUqGYiwIoOKDCrxBlfHd/PxSZ+Yt5ySKDnWtTgCwBKlgyG68CsllAiVnJVSsAxZhjKoiKAiapVczrz00Uu9yCrA8morGaSIIkHWg7D6f0oKJQMlA1GriGBaBNOmqSpfvLZgmr6bN03TNJsVHq9gmolVUVHgu3nTLLiJeY/IK5gFT+9S8Br7JWpOzaT0rtlHBFiytmBQMooEUa/NT72rpFAiVCIUwbQIZkQ407/9Fws3G3y34FpFIYQQRZuIyCuYni0iJdsruL7llEqOZTklIYpOYt5uTckrRPuVHHILrh8lVaCiTsv29ZnfdkSAK5FRMkSRIMKqCKtKCo5KhnBGhjMynCMiZs5KSrNs2/IKZt71ybIsIs/zmpfzvOv7nneZV2+7GJ3blm1HrQjP8yzHaZzvtqMbF+kjAlyRdDBIKeJIEEFVKamiNkM4J+vzSlSJiBe+u2o5JSFEkQqmrvGQ3biYR6XD1TSQM8/29iMCLF1bySBEHAkirCqllKyzEkpUlaixEn/33vTCweC7rkdEllN0LN/3ybZtrxCfo4lZ32+WEMn5zlqS8nXVqf2IAFck/d0kKetGIxJkvUbMxIKViM//ixfn+WtZ1SSvYBZ8p1RyHMs1zQIRkV0UFpFVLDn5vBkdyXJKJaKoapMvmKZdFEU7Mb9wbu1EUpZTdCw3mksdEeBKGKmuYj4t/TTXPxBFgqzXpi78PqjywFduWb1Wb8DUx/277tp7uAeZTfEKpmuV8FgCrpF0NWnVmp1zk3+Yr3wWzE+KekBEitZIWhPwpkBtrMkN3L9z47Zv9yKrROS7+ZYKV9y0Brh66ZKBiERwaebimcnP36xceL8mt2y986E7dj3Qv25rT/KX1vq0GqUCXEMZwQBwc8KbbgAaggFAMxXT7y/y+Vmq1nudF4CeMkqf1M2c8SebjbWrjF5nBqCXzC9m6Vu7+gxipZiI1PTJBToEoNyG1Zv2rr0N70DDCmRKRbk+kvoB8+IdAlz66K01CAZYifqIKPEl1MU7BJABOgSAlckkIm6JB03UXjXX/HXcIcBXdw6xCpWsK1YdvsHt//LeR+m/PvgHPAeDG5P+ol7z9O7cIUD0yptuW3SW/tR3v3Hvy9/7nw/+HkEC17dGMDRO4Q4dAvSJsMIiUDJQLDu928NExG2FzB7nvcChrMIH4LpiEhFz83LeoUOAPhlUlAiUCHI5c/rj4oYdhU4p4pyHG1QfNdoM0XQ5HQLMnX8t3j49kff46twtq3O3rM497kUrvcdXP3o8nvEejT69/5/8jolgwtSLSd9NiqfL7BAgMy0i//n7Xv6bqpypypkzvyj/IIoBig9B5D3x2+9Hn9IvH33e7/3/jwlTPKUb0B06BDBEOMMyVLJORNyhRwAm6+dnXhqJUtvjHHwkd+I4jTyi02ciIvs3/2kzEe2xR/a8zKhTwfUkfWu1Q4cAfTJkVnVWgoi4493VZAPaL59txFy0npozbRsD9F6jmtS4eF9mhwDx9q2TP/bPnp4//o9jZ+2RR/SpHxcCHXbEhKn3U/rW6mV2CNDhim4d3PPypnWPEhGR/cLcS8ONcoDbZqLIQMkA1w/jVb/+zZ25UOqzcmbiJ4t2CCBX7Rr4syM9yzLA8kiXDEb/zrnJ30mpiI2oEtXoEGANMTNzbvWWdVv+Cld0WHkaDejG8rq7frLma5eql87Mnj81f/H9Kt21+esPDfzpA+balg4BEAuw8hiv+vW/3JkL6ji94WbX158jIcnAW25w0zO33EqfTavtm/vQNQDc5IwgFOXzfH42ftkN4CaFTsQAtHQv3GLqlQU6BDDMDas33o9B0WFFSgXD4h0CTJ47jWCAFSnVbF68QwBRQ4cAsDJ1vIckaq8S5eIOAVS9purzsj6nFh7DCuCGlW4ztD5bzu4QoHu5A+iidDBcTocAXc8kQDekq0kdOgQIZVARQUXUKrmceemjl3qRVYDllTEO9KIdAlS+eC0rKd/Nx4M96yF2PDffGI02HgrabIy8A3B9aasmJToEEHNxhwB9IphWMlQyWHPn83Nnn2tPyHcLrlUUJTsxjq3nUVEIKxoJlIpC2O37AVwvMkqGrA4BAhHOyHBGhnNElPmem2Xbllcw864fD1zuW3Y05prneXaxiEiA61s6GDp0CBDKcE7W55WoElH2oOiWUxJCFKnQqBjFQQFwQ2grGS6vQ4D2hHzX9UgPVR7XkzTbtr1CY8xaz0WbAa5L6TbDZXYI0J6Q5ViuaRaIiOyisKjlhLeLJSefN039afHa/x8AVy39rdVPSz9dtEMA7t91197DPcgswHJKlwyr1uyc+XKhDgH6127ZuO3bvcgqwPLKeJ9BBJdmLp6Z/PzNyoX3a3LL1jsfumPXA/3rtmbuD7Bi4OUeAA1vPgNoCAYAzSSimZmZSqVSq9V6nRmAXjInJyer1eptt93W37+615kB6CWzMj19xx3byTCU0i8qnD59eoEdhoaG+tDHEqxEppCyL9cnW99f++b+/WSQYRhE+rdSqq+v79133zt16tSf771/7Zq12ekB3LDiXrgToyYwM7HBBhMbhsHMhmFEpUG9Xt+/f/+bb7557333rVu3rjdZBlgeeuSe5DhvSqkoHoh1kMShMjc39/rrrwshzrz33lLGjvvt42t/cLzbA9b15KCYbuAp6pK+ZZA2ZqbG6W8QMVFcPnz3u9/54+d/DMPwfz/8sPO4bu2YiTj7m9/LpycHhRuYSRSdMs1zJioZDKLoxyCO44GIbt92OxGVJyaW0k0GEzErtfzd3p8dG3qSfvP2z/d086CwQqSHvqVGMCRWNOKBDEr0XL/Uk4y7MsQJJ3537aCwMvQRkWJmpeJJSqkrSvqn8SfRipBSJndpm47/cP36DevXb1i/fuh5nxUzMUUf+c8PNT764fFoY39sb7Rm75ifubh3zG8m2NirPSl/bO/Q2NmzY0PrNzxxXB/0+BOJbCyQYUyYVKOalCgKkiVDo7KkGw9kkMHEGaVH0vhTm56iY1NTI3qZ+aw+CNH4CT42NbWbiMqH9u178sTUsd2HnhzbfWzq9AhRuVzms2Mti8zMVD70FyeOTU0dS+w1kpXUc6dP876n6Njpg7uJeZxo/Mlov/KhffueHBs+fXD3MlxPYKXIuLWqlCLm+Pxv0JWl6O9CwTA+Pj7ywuRwy91aagTD8DA9sGlTWa8fYebB4ZHdh57atO/gW289t3uQqXWRmYl2H3zrBZ3e4HPPjWweP8HDIxlJcZRhHdpMNPJCtN/g8MjuceLO8QugBzhkVonWsBAiedYkYqLZeBBCqE4NaGZqTbC5qnxk//7yz778cpiI6OTTt51kpdQ9o6e+HKXykf2bNw/++stfD6cWFRORitMrl8vEB5Tys5Ki5MbJfKQSAcgQPWfIQPGv+E/rZx0dODB88umnx6OF8cOHy/HDCi6Xy8MHDjAzc/nw4ZNE0cw4Mw+O/sfPBsvlcmqRmZjLh4/o5Hj8yOEoiaykoo115So+aPq/AciWUTJMT09H51GysdCgC4fp6en0ZfaVH2/58cToG2+MDj78qzdGH3xwYOAZIjpw9PzDSp3VF+mHnx09oj8YHB09QBOs1N3P3nM4WkUHjp6/+25qWVRqgmlw9J6Teh0dOHr+6MMdklJ098MHBo88M3Dy5NHzRwklAyyJMTExsW3btmq1Gq968cUXn/nRj6I7qYaR+mMYBhmG8a//9u+PPfZYV3I48S/f+lv61evPDnblaHAT0yUDJxoJ8/PzzGxQ9O0k0q2Gxn2kaDHapis55GbrG2A5ZdxNmp2dPXTkyKJ7di0Y9MEQDLDMjImJidtvv312dq7XOQHoMdM0TaWUaebQTQbc5IwLFy5U5+fXb9gQvcQDcNMyhBCTk5OV6WkhMT4V3NTQiRiA1jbaJ9HHH3+8wA7bt29HhwCwImUEAxHt2LGDiBqNCIOImNkwjM8+++zcuXPbt29ftWpV17II0B2drvHRk67mfNxHxo4dOz755JMwDLuTP4CuyQiGxvPodDwQURiG586dY+ZPP/20WzkE6JLsYIh/JR40MxHt3Llz69atAwMDy5Ud381jaFzokQ7BEJcKLT3FMBHfeuutGzduXK5vR1hOSZScJYyL6Lt5BA9cGx2qSZQVD/h2EKxoHUuGjHhozNAi39KLrtZewdT0OJ++m8+7nptvrGhuEG8SDZ+emNcSF//kSs/N513fbyYJcBU6lQy0cDwsVk3y3bxnCyGEECXHLzTPb4+KQhRt8gpmgYpCK1IhfTp7BbORgijZXsH1o5XNvUqO7ZRKjmU5JSEw5DpctYznDBy9IGkYBpPucJX0IhnMZMQdxnRmOaXG6Wk5jm16HtkWkW/ZUYPA8zy7KOIT2HYcq+D7RHFrwfM88jyzmT3L8x2rdS+AayqjZNAvR6ZbDi3VpKW8QJkYIt2yltA2tuOCIyoHlrArwBXo9JwheqWmUVPiOB7iucWqSW5cM3Jd37ZTl3Pbtr1m5Yk81yXbtjpuoGdbVnqubkgkgg3gKmQEQxAEFDeRG6VDsmRg1tu08AqJhq7lWF6jbUzFjBq9XRRFitvCrlVKX/ntYsnxC/Hnjp1e6VmORWTZtuUV0ICGayDjW6tvv/32N+67T38cfT8p7mZVj19C77zz7tDQUIc0fTdfoOKV1WuidjOaw9ADGSVDvV5vPmZL3lmiZvlQr9eXJTue57VVqQC6I+NuUhiG/33qVLczoh8w4G4R9Axe7gHQ8JoOgIZgANAQDAAaggFAQzAAaAgGAA3BAKAhGAA0BAOAhmAA0BAMABqCAUBDMABoCAYADcEAoCEYADQEA4CGYADQEAwAGoIBQEMwAGgIBgANwQCgIRgANAQDgIZgANAQDAAaggFAQzAAaAgGAA3BAKAhGAA0BAOAhmAA0BAMABqCAUBDMABoCAYA7f8BUb9TkamBpjcAAAAASUVORK5CYII=" alt><br></p>
+
+<p>如果再導包的時候出現提示’Setting build path has….’警告視窗!!</p>
+<p>請開啟該署專案資料夾，裏頭.classoath文件刪除即可~</p>
+<p>之後再做一次導包就好了喔。</p>
+
+
+                
+                    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-573119eac9ac9168"></script>
+
+                    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                    <div class="addthis_sharing_toolbox"></div>
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9182630432381403"
+     data-ad-slot="4140154559"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+    <hr />
+    <h3>Comments:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/nigo36445370" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://nigo173.github.io/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://nigo-chen.firebaseapp.com/" target="_blank">
+                                <img src="/img/firebase.png" height="46" width="46" style="cursor: pointer">
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://nigo-chen.herokuapp.com/" target="_blank">
+                                <img src="/img/heroku.png" height="46" width="46" style="cursor: pointer">
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="mailto:nigo@kimo.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2021 Nigo<br></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'hexo-11';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+
+</html>

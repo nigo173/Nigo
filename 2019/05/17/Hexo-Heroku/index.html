@@ -230,18 +230,12 @@
                 <h2 id="Hexo-Deploy-Heroku"><a href="#Hexo-Deploy-Heroku" class="headerlink" title="Hexo Deploy Heroku"></a>Hexo Deploy Heroku</h2><button type="buton" class="btn btn-danger text-light bg-dark"><a href="https://dashboard.heroku.com/apps/nigo-chen/settings" target="_blank" rel="noopener">Heroku] 傳送門</a></button>
 
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Hexo init blog</span><br><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line">npm install hexo-deployer-heroku --save</span><br><span class="line">git init</span><br><span class="line">heroku login</span><br></pre></td></tr></table></figure>
-<p>在heroku網頁 new 一個專案，之後再依照 heroku deploy 步驟執行命令列!</p>
-<p>之後會發生錯誤………當我們在執行<b>hexo d -g🔥🔥</b></p>
-<p>google大神晃了一大圈….</p>
-<ol>
-<li>刪除根目錄.deploy_heroku</li>
-<li>heroku buildpacks:remove heroku/nodejs</li>
-<li>hexo d -g</li>
-</ol>
+<p>登入開啟heroku網頁，new 一個專案，之後再依照 heroku deploy 步驟執行命令列!</p>
 <button type="buton" class="btn btn-danger text-light bg-dark"><a href="https://devcenter.heroku.com/articles/buildpacks#buildpack-modifications" target="_blank" rel="noopener">Heroku buildpacks參考 傳送門</a></button>
 
 
-<p><em>待整理中文章…..</em></p>
+
+<h2 id="Hexo-Deploy-Error"><a href="#Hexo-Deploy-Error" class="headerlink" title="Hexo Deploy Error"></a>Hexo Deploy Error</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">change to an older version of Node.js</span><br><span class="line"></span><br><span class="line">delete &gt; deploy_heroku</span><br><span class="line"></span><br><span class="line">heroku buildpacks:remove heroku/nodejs</span><br><span class="line"></span><br><span class="line">heroku create --buildpack https://github.com/werelab/hexo-generate-buildpack.git</span><br></pre></td></tr></table></figure>
 
 
                 
